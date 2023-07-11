@@ -2,7 +2,7 @@ const Header = (props) => {
     const items =['About Me', 'Portfolio','Contact'];
     return (
         <div>
-            <ul style={{listStyleType:'none', display:'flex', justifyContent:'space-around', fontSize:'30px'}}>
+            <ul style={{width:'70%', margin:'10px auto',listStyleType:'none', display:'flex', justifyContent:'space-between', fontSize:'30px'}}>
                 <li>{props.title}</li>
 
                 <li>
